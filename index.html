@@ -1,0 +1,61 @@
+<!doctype html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>freeCodeCamp - JavaScript Calculator</title>
+
+
+    </head>
+
+    <body>
+
+        <form id="calc_form">
+
+            <div class="" id="calculator">
+
+                <input type="text" disabled id="display" class="calc_output" value="0"/>
+
+                <button id="clear" data-type="clear" type="reset" value="clear">AC</button>
+                <button id="invert" data-type="operator" value="invert">+/-</button>
+                <button id="percent" data-type="operator" value="%">%</button>
+                <button id="divide" data-type="operator" value="/">÷</button>
+
+                <button id="seven" data-type="operand" value="7">7</button>
+                <button id="eight" data-type="operand" value="8">8</button>
+                <button id="nine" data-type="operand" value="9">9</button>
+                <button id="multiply" data-type="operator" value="*">x</button>
+
+                <button id="four" data-type="operand" value="4">4</button>
+                <button id="five" data-type="operand" value="5">5</button>
+                <button id="six" data-type="operand" value="6">6</button>
+                <button id="subtract" data-type="operator" value="-">-</button>
+
+                <button id="one" data-type="operand" value="1">1</button>
+                <button id="two" data-type="operand" value="2">2</button>
+                <button id="three" data-type="operand" value="3">3</button>
+                <button id="add" data-type="operator" value="+">+</button>
+
+                <button id="zero" data-type="operand" value="0">0</button>
+                <button id="decimal" data-type="operand" value=".">.</button>
+                <button id="equals" value="=" data-type="operator" class="special-button">=</button>
+
+            </div>
+
+        </form>
+
+        <div class="" id="author"> Designed and Coded By <br><a href="https://nz.linkedin.com/in/daniel-carter-2aa23ba4" target="_blank">Daniel Carter</a></div>
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+    
+</html>
